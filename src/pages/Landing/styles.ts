@@ -71,7 +71,7 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
 
-    transition: background-color 0.5s;
+    transition: background-color 0.3s;
 
     :hover {
       background-color: #96feff;
