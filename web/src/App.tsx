@@ -5,14 +5,15 @@ import Routes from './routes';
 import history from './services/history';
 
 import GlobalStyles from './styles/global';
+import 'leaflet/dist/leaflet.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router history={history}>
       <Routes />
       <GlobalStyles />
     </Router>
   );
-}
+};
 
 export default App;

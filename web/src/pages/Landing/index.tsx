@@ -6,7 +6,7 @@ import logo from '../../assets/logo.svg';
 
 import { Container, Wrapper } from './styles';
 
-const Main: React.FC = () => {
+const Landing: React.FC = () => {
   return (
     <Container>
       <Wrapper>
@@ -21,7 +21,7 @@ const Main: React.FC = () => {
           <strong>Penápolis</strong>
           <span>São Paulo</span>
         </div>
-        <Link to="/Orphanage">
+        <Link to="/orphanage">
           <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" />
         </Link>
       </Wrapper>
@@ -29,4 +29,4 @@ const Main: React.FC = () => {
   );
 };
 
-export default Main;
+export default Landing;
